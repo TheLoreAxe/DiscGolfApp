@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB075832275FFCBB001CB147 /* roundFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB075831275FFCBB001CB147 /* roundFinalViewController.swift */; };
+		BB2CA9D3274BEE570004D7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9D2274BEE570004D7C3 /* AppDelegate.swift */; };
+		BB2CA9D5274BEE570004D7C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9D4274BEE570004D7C3 /* SceneDelegate.swift */; };
+		BB2CA9D7274BEE570004D7C3 /* coursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9D6274BEE570004D7C3 /* coursesViewController.swift */; };
+		BB2CA9DA274BEE570004D7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9D8274BEE570004D7C3 /* Main.storyboard */; };
+		BB2CA9DC274BEE590004D7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9DB274BEE590004D7C3 /* Assets.xcassets */; };
+		BB2CA9DF274BEE590004D7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9DD274BEE590004D7C3 /* LaunchScreen.storyboard */; };
+		BB2CA9E4274BEE590004D7C3 /* DG Tracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BB2CA9E3274BEE590004D7C3 /* DG Tracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB2CA9EA274BEE590004D7C3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9E8274BEE590004D7C3 /* Interface.storyboard */; };
+		BB2CA9EC274BEE590004D7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9EB274BEE590004D7C3 /* Assets.xcassets */; };
+		BB2CA9F2274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BB2CA9F1274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB2CA9F7274BEE590004D7C3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9F6274BEE590004D7C3 /* InterfaceController.swift */; };
+		BB2CA9F9274BEE590004D7C3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9F8274BEE590004D7C3 /* ExtensionDelegate.swift */; };
+		BB2CA9FB274BEE590004D7C3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9FA274BEE590004D7C3 /* NotificationController.swift */; };
+		BB2CA9FD274BEE590004D7C3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA9FC274BEE590004D7C3 /* ComplicationController.swift */; };
+		BB2CA9FF274BEE5A0004D7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA9FE274BEE5A0004D7C3 /* Assets.xcassets */; };
+		BB2CAA10274BEEC00004D7C3 /* editCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CAA0F274BEEC00004D7C3 /* editCoursesViewController.swift */; };
+		BB2CAA12274BEED10004D7C3 /* roundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CAA11274BEED10004D7C3 /* roundViewController.swift */; };
+		BB2D5F6527650ECF004734E8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D5F6427650ECF004734E8 /* MyCollectionViewCell.swift */; };
+		BB475955274FCE0700B5E725 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB475954274FCE0700B5E725 /* CourseCell.swift */; };
+		BB475957274FD7E400B5E725 /* addCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB475956274FD7E400B5E725 /* addCourseViewController.swift */; };
+		BB4759592752FFC300B5E725 /* courseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4759582752FFC300B5E725 /* courseTableViewController.swift */; };
+		BB5B1E90274C0DD9001B518B /* databaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B1E8E274C0DD9001B518B /* databaseManager.swift */; };
+		BB5B1E91274C0DD9001B518B /* course.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B1E8F274C0DD9001B518B /* course.swift */; };
+		BB7068C32756B13900E0E0B0 /* hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7068C22756B13900E0E0B0 /* hole.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2CA9E5274BEE590004D7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2CA9C7274BEE570004D7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2CA9E2274BEE590004D7C3;
+			remoteInfo = "DG Tracker WatchKit App";
+		};
+		BB2CA9F3274BEE590004D7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2CA9C7274BEE570004D7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2CA9F0274BEE590004D7C3;
+			remoteInfo = "DG Tracker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB2CAA07274BEE5A0004D7C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB2CA9F2274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CAA0B274BEE5A0004D7C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BB2CA9E4274BEE590004D7C3 /* DG Tracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB075831275FFCBB001CB147 /* roundFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundFinalViewController.swift; sourceTree = "<group>"; };
+		BB2CA9CF274BEE570004D7C3 /* DG Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DG Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CA9D2274BEE570004D7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB2CA9D4274BEE570004D7C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB2CA9D6274BEE570004D7C3 /* coursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesViewController.swift; sourceTree = "<group>"; };
+		BB2CA9D9274BEE570004D7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2CA9DB274BEE590004D7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2CA9DE274BEE590004D7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB2CA9E0274BEE590004D7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2CA9E3274BEE590004D7C3 /* DG Tracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DG Tracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CA9E9274BEE590004D7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BB2CA9EB274BEE590004D7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2CA9F1274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DG Tracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CA9F6274BEE590004D7C3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BB2CA9F8274BEE590004D7C3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BB2CA9FA274BEE590004D7C3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BB2CA9FC274BEE590004D7C3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BB2CA9FE274BEE5A0004D7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2CAA00274BEE5A0004D7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2CAA01274BEE5A0004D7C3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BB2CAA0F274BEEC00004D7C3 /* editCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editCoursesViewController.swift; sourceTree = "<group>"; };
+		BB2CAA11274BEED10004D7C3 /* roundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundViewController.swift; sourceTree = "<group>"; };
+		BB2D5F6427650ECF004734E8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB475954274FCE0700B5E725 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		BB475956274FD7E400B5E725 /* addCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCourseViewController.swift; sourceTree = "<group>"; };
+		BB4759582752FFC300B5E725 /* courseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseTableViewController.swift; sourceTree = "<group>"; };
+		BB5B1E8E274C0DD9001B518B /* databaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = databaseManager.swift; sourceTree = "<group>"; };
+		BB5B1E8F274C0DD9001B518B /* course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = course.swift; sourceTree = "<group>"; };
+		BB7068C22756B13900E0E0B0 /* hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hole.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2CA9CC274BEE570004D7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CA9EE274BEE590004D7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2CA9C6274BEE570004D7C3 = {
+			isa = PBXGroup;
+			children = (
+				BB2CA9D1274BEE570004D7C3 /* DG Tracker */,
+				BB2CA9E7274BEE590004D7C3 /* DG Tracker WatchKit App */,
+				BB2CA9F5274BEE590004D7C3 /* DG Tracker WatchKit Extension */,
+				BB2CA9D0274BEE570004D7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2CA9D0274BEE570004D7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CA9CF274BEE570004D7C3 /* DG Tracker.app */,
+				BB2CA9E3274BEE590004D7C3 /* DG Tracker WatchKit App.app */,
+				BB2CA9F1274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2CA9D1274BEE570004D7C3 /* DG Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B1E8F274C0DD9001B518B /* course.swift */,
+				BB7068C22756B13900E0E0B0 /* hole.swift */,
+				BB5B1E8E274C0DD9001B518B /* databaseManager.swift */,
+				BB475954274FCE0700B5E725 /* CourseCell.swift */,
+				BB4759582752FFC300B5E725 /* courseTableViewController.swift */,
+				BB475956274FD7E400B5E725 /* addCourseViewController.swift */,
+				BB2CA9D2274BEE570004D7C3 /* AppDelegate.swift */,
+				BB2CA9D4274BEE570004D7C3 /* SceneDelegate.swift */,
+				BB2CA9D6274BEE570004D7C3 /* coursesViewController.swift */,
+				BB2CAA0F274BEEC00004D7C3 /* editCoursesViewController.swift */,
+				BB2CAA11274BEED10004D7C3 /* roundViewController.swift */,
+				BB075831275FFCBB001CB147 /* roundFinalViewController.swift */,
+				BB2D5F6427650ECF004734E8 /* MyCollectionViewCell.swift */,
+				BB2CA9D8274BEE570004D7C3 /* Main.storyboard */,
+				BB2CA9DB274BEE590004D7C3 /* Assets.xcassets */,
+				BB2CA9DD274BEE590004D7C3 /* LaunchScreen.storyboard */,
+				BB2CA9E0274BEE590004D7C3 /* Info.plist */,
+			);
+			path = "DG Tracker";
+			sourceTree = "<group>";
+		};
+		BB2CA9E7274BEE590004D7C3 /* DG Tracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CA9E8274BEE590004D7C3 /* Interface.storyboard */,
+				BB2CA9EB274BEE590004D7C3 /* Assets.xcassets */,
+			);
+			path = "DG Tracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		BB2CA9F5274BEE590004D7C3 /* DG Tracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CA9F6274BEE590004D7C3 /* InterfaceController.swift */,
+				BB2CA9F8274BEE590004D7C3 /* ExtensionDelegate.swift */,
+				BB2CA9FA274BEE590004D7C3 /* NotificationController.swift */,
+				BB2CA9FC274BEE590004D7C3 /* ComplicationController.swift */,
+				BB2CA9FE274BEE5A0004D7C3 /* Assets.xcassets */,
+				BB2CAA00274BEE5A0004D7C3 /* Info.plist */,
+				BB2CAA01274BEE5A0004D7C3 /* PushNotificationPayload.apns */,
+			);
+			path = "DG Tracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2CA9CE274BEE570004D7C3 /* DG Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CAA0C274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker" */;
+			buildPhases = (
+				BB2CA9CB274BEE570004D7C3 /* Sources */,
+				BB2CA9CC274BEE570004D7C3 /* Frameworks */,
+				BB2CA9CD274BEE570004D7C3 /* Resources */,
+				BB2CAA0B274BEE5A0004D7C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2CA9E6274BEE590004D7C3 /* PBXTargetDependency */,
+			);
+			name = "DG Tracker";
+			productName = "DG Tracker";
+			productReference = BB2CA9CF274BEE570004D7C3 /* DG Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2CA9E2274BEE590004D7C3 /* DG Tracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CAA08274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker WatchKit App" */;
+			buildPhases = (
+				BB2CA9E1274BEE590004D7C3 /* Resources */,
+				BB2CAA07274BEE5A0004D7C3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2CA9F4274BEE590004D7C3 /* PBXTargetDependency */,
+			);
+			name = "DG Tracker WatchKit App";
+			productName = "DG Tracker WatchKit App";
+			productReference = BB2CA9E3274BEE590004D7C3 /* DG Tracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BB2CA9F0274BEE590004D7C3 /* DG Tracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CAA04274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker WatchKit Extension" */;
+			buildPhases = (
+				BB2CA9ED274BEE590004D7C3 /* Sources */,
+				BB2CA9EE274BEE590004D7C3 /* Frameworks */,
+				BB2CA9EF274BEE590004D7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DG Tracker WatchKit Extension";
+			productName = "DG Tracker WatchKit Extension";
+			productReference = BB2CA9F1274BEE590004D7C3 /* DG Tracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2CA9C7274BEE570004D7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BB2CA9CE274BEE570004D7C3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BB2CA9E2274BEE590004D7C3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BB2CA9F0274BEE590004D7C3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BB2CA9CA274BEE570004D7C3 /* Build configuration list for PBXProject "DG Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2CA9C6274BEE570004D7C3;
+			productRefGroup = BB2CA9D0274BEE570004D7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2CA9CE274BEE570004D7C3 /* DG Tracker */,
+				BB2CA9E2274BEE590004D7C3 /* DG Tracker WatchKit App */,
+				BB2CA9F0274BEE590004D7C3 /* DG Tracker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2CA9CD274BEE570004D7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA9DF274BEE590004D7C3 /* LaunchScreen.storyboard in Resources */,
+				BB2CA9DC274BEE590004D7C3 /* Assets.xcassets in Resources */,
+				BB2CA9DA274BEE570004D7C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CA9E1274BEE590004D7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA9EC274BEE590004D7C3 /* Assets.xcassets in Resources */,
+				BB2CA9EA274BEE590004D7C3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CA9EF274BEE590004D7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA9FF274BEE5A0004D7C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2CA9CB274BEE570004D7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B1E91274C0DD9001B518B /* course.swift in Sources */,
+				BB2CA9D7274BEE570004D7C3 /* coursesViewController.swift in Sources */,
+				BB2CA9D3274BEE570004D7C3 /* AppDelegate.swift in Sources */,
+				BB5B1E90274C0DD9001B518B /* databaseManager.swift in Sources */,
+				BB7068C32756B13900E0E0B0 /* hole.swift in Sources */,
+				BB475955274FCE0700B5E725 /* CourseCell.swift in Sources */,
+				BB075832275FFCBB001CB147 /* roundFinalViewController.swift in Sources */,
+				BB2CA9D5274BEE570004D7C3 /* SceneDelegate.swift in Sources */,
+				BB2D5F6527650ECF004734E8 /* MyCollectionViewCell.swift in Sources */,
+				BB475957274FD7E400B5E725 /* addCourseViewController.swift in Sources */,
+				BB2CAA12274BEED10004D7C3 /* roundViewController.swift in Sources */,
+				BB4759592752FFC300B5E725 /* courseTableViewController.swift in Sources */,
+				BB2CAA10274BEEC00004D7C3 /* editCoursesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CA9ED274BEE590004D7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA9FB274BEE590004D7C3 /* NotificationController.swift in Sources */,
+				BB2CA9FD274BEE590004D7C3 /* ComplicationController.swift in Sources */,
+				BB2CA9F9274BEE590004D7C3 /* ExtensionDelegate.swift in Sources */,
+				BB2CA9F7274BEE590004D7C3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2CA9E6274BEE590004D7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2CA9E2274BEE590004D7C3 /* DG Tracker WatchKit App */;
+			targetProxy = BB2CA9E5274BEE590004D7C3 /* PBXContainerItemProxy */;
+		};
+		BB2CA9F4274BEE590004D7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2CA9F0274BEE590004D7C3 /* DG Tracker WatchKit Extension */;
+			targetProxy = BB2CA9F3274BEE590004D7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB2CA9D8274BEE570004D7C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2CA9D9274BEE570004D7C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2CA9DD274BEE590004D7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2CA9DE274BEE590004D7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2CA9E8274BEE590004D7C3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2CA9E9274BEE590004D7C3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2CAA02274BEE5A0004D7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2CAA03274BEE5A0004D7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BB2CAA05274BEE5A0004D7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DG Tracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DG Tracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		BB2CAA06274BEE5A0004D7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DG Tracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DG Tracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		BB2CAA09274BEE5A0004D7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DG_Tracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DG Tracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mjsteffan.DG-Tracker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		BB2CAA0A274BEE5A0004D7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DG_Tracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DG Tracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "mjsteffan.DG-Tracker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		BB2CAA0D274BEE5A0004D7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DG Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Disc Golf Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB2CAA0E274BEE5A0004D7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QQ4TWJ5N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DG Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Disc Golf Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mjsteffan.DG-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2CA9CA274BEE570004D7C3 /* Build configuration list for PBXProject "DG Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CAA02274BEE5A0004D7C3 /* Debug */,
+				BB2CAA03274BEE5A0004D7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CAA04274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CAA05274BEE5A0004D7C3 /* Debug */,
+				BB2CAA06274BEE5A0004D7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CAA08274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CAA09274BEE5A0004D7C3 /* Debug */,
+				BB2CAA0A274BEE5A0004D7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CAA0C274BEE5A0004D7C3 /* Build configuration list for PBXNativeTarget "DG Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CAA0D274BEE5A0004D7C3 /* Debug */,
+				BB2CAA0E274BEE5A0004D7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2CA9C7274BEE570004D7C3 /* Project object */;
+}
